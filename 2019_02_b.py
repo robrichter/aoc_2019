@@ -35,6 +35,5 @@ for j in range(ITERATIONS):
 
         if intcode[0] == GOAL:
             puzzle.answer_b = f"{j}{k}"
-            print(puzzle.answer_b)
             break
 

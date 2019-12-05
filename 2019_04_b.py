@@ -23,6 +23,5 @@ for number in range(MIN, MAX+1):
         passwords += 1
 
 
-print(passwords)
 puzzle.answer_b = passwords
 

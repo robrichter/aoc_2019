@@ -13,5 +13,4 @@ def count_sum_with_fuel(weight):
 
 
 puzzle.answer_b = sum([count_sum_with_fuel(int(x)) for x in data])
-print(puzzle.answer_b)
 

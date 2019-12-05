@@ -15,9 +15,6 @@ class Coords:
         self.x = x
         self.y = y
 
-    def __repr__(self):
-        return f"x:{self.x} y:{self.y}"
-
 
 class Plan:
     def __init__(self):
@@ -64,5 +61,4 @@ plan.draw_wire(wires[0])
 plan.set_distance(wires[1])
 
 puzzle.answer_a = plan.distance
-print(plan.distance)
 
