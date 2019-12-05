@@ -65,3 +65,4 @@ plan.set_distance(wires[1])
 
 puzzle.answer_a = plan.distance
 print(plan.distance)
+

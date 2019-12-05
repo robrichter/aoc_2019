@@ -38,6 +38,3 @@ for j in range(ITERATIONS):
             print(puzzle.answer_b)
             break
 
-
-
-

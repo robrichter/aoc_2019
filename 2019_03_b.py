@@ -70,3 +70,4 @@ plan.set_intersections(wires[1])
 
 print(plan.steps)
 puzzle.answer_b = plan.steps
+
